@@ -11,4 +11,9 @@ A Markov model was created in order to generate wine descriptions that cater to 
 
 Based on the results of this project, it was clear that a first order markov model will write descriptions containing keywords consistent with actual descriptions. While the generated descriptions my not be grammatically correct, the information they provided was more than enough to understand the flavors that portray a variety of wine.
 
-# [Project 3: Predicting Insurance Premiums
+# [Project 3: Predicting Body Fat](https://github.com/hammij/BodyFat)
+Machine learning project to predict body fat given measuremnets of individuals. 
+Data set taken from kaggel https://www.kaggle.com/fedesoriano/body-fat-prediction-dataset
+
+Three regression models were implemented in order to predict the body fat measurements: linear regression, random forest, and xgboost.
+The three models all acheeived R2 scores of .99, of the three Random Forest performed the best based on MAE and RMSE.
